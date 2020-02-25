@@ -1,0 +1,28 @@
+{
+    "name": "belguinan/php-project-template",
+    "description": "Simple template for simple php project (landing pages...)",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "noureddine belg",
+            "email": "nor15dine@gmail.com"
+        }
+    ],
+    "require": {
+        "tightenco/collect": "^6.16",
+        "illuminate/database": "^6.17",
+        "illuminate/pagination": "^6.17",
+        "illuminate/support": "^6.17",
+        "illuminate/contracts": "^6.17",
+        "illuminate/events": "^6.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/classes"
+        },
+        "files": [
+            "app/helpers/functions.php"
+        ]
+    }
+}
